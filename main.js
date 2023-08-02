@@ -1,9 +1,9 @@
 import './style.css'
 
-import * as THREE from '/three';
-import { GLTFLoader } from '/three/addons/loaders/GLTFLoader.js';
-import { DRACOLoader } from '/three/addons/loaders/DRACOLoader.js';
-import { OrbitControls } from '/three/addons/controls/OrbitControls.js';
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 // import modelSrc from './assets/oreoGltf.gltf';
 
 const scene = new THREE.Scene();
